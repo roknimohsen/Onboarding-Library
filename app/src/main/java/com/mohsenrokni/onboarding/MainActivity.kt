@@ -61,6 +61,10 @@ class MainActivity : AppCompatActivity() {
                 R.color.onboarding_02,
                 R.color.onboarding_03)
             .withBoardSettings(mutableListOf(board1settings, board2settings, board3settings, board4settings))
+            .withNextListener{
+                //do something
+                //go to next activity
+            }
             .getView()
 
         main.addView(onboardingView)

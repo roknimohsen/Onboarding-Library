@@ -45,6 +45,8 @@ public class Onboarding {
 
     private AppCompatActivity activity ;
 
+    private NextListener nextListener ;
+
     public Onboarding withActivity(AppCompatActivity activity) {
         this.activity = activity ;
         return this ;
@@ -73,6 +75,13 @@ public class Onboarding {
 
     }
 
+    public Onboarding withNextListener(NextListener listener) {
+
+        nextListener = listener ;
+
+        return this ;
+    }
+
     public View getView() {
 
         activity.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
@@ -98,10 +107,10 @@ public class Onboarding {
             public void onClick(View v) {
 
                 if(viewPager.getCurrentItem() == 3){
-                    /*next.setClickable(false);
-                    Intent intent = new Intent(Onboarding.this, MapsActivity.class);
-                    finish();
-                    startActivity(intent);*/
+
+                    if(nextListener != null)
+                        nextListener.onClick();
+
                     return ;
                 }
 
@@ -633,5 +642,9 @@ public class Onboarding {
         public String text = "text" ;
         public List<Drawable> drawableList ;
 
+    }
+
+    public interface NextListener {
+        void onClick();
     }
 }
