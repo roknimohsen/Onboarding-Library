@@ -15,7 +15,7 @@ Then, add this to the `build.gradle` of your **app** module:
 
 ```groovy
 dependencies {
-    implementation 'com.github.roknimohsen:Onboarding-Library:0.1.0'
+    implementation 'com.github.roknimohsen:Onboarding-Library:0.1.1'
 }
 ```
 ### How to use
