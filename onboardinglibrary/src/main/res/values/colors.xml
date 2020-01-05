@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="gray_dark">#626262</color>
+    <color name="gray_light">#AAAAAA</color>
+    <color name="gray_X_light">#EEEEEE</color>
+    <color name="gray_XX_light">#EEEEEE</color>
+
+    <color name="blue_dark">#65aeec</color>
+    <color name="blue_light">#9ed7fc</color>
+
+    <color name="blue_dark_transparent">#3326ADE2</color>
+    <color name="blue_light_transparent">#335FD2FF</color>
+
+    <color name="orange">#f5aa79</color>
+    <color name="orange_transparent">#33f5aa79</color>
+
+    <color name="magenta">#d76688</color>
+    <color name="magenta_transparent">#33d76688</color>
+
+    <color name="green_dark">#01C5D1</color>
+    <color name="green_light">#05C5BF</color>
+
+    <color name="green_dark_transparent">#331BAFB4</color>
+    <color name="green_light_transparent">#3305C5BF</color>
+
+    <color name="purple_dark">#9A72Cf</color>
+    <color name="purple_light">#BB88FF</color>
+
+    <color name="red_dark">#FF5A59</color>
+    <color name="red_light">#FF8887</color>
+
+    <color name="button_red_dark">#d86787</color>
+    <color name="button_red_light">#fd6f6f</color>
+
+    <color name="button_red_dark_transparent">#33d86787</color>
+    <color name="button_red_light_transparent">#33fd6f6f</color>
+
+    <color name="yellow_claim">#fafae6</color>
+
+    <color name="blue">#6ebcfd</color>
+    <color name="purple">#84b6fc</color>
+    <color name="green">#04C9BF</color>
+    <color name="gray">#858585</color>
+
+    <color name="blue_transparent">#330097E2</color>
+    <color name="purple_transparent">#3384b6fc</color>
+    <color name="green_transparent">#3304C9BF</color>
+    <color name="gray_transparent">#11000000</color>
+    <color name="white_transparent">#CCFFFFFF</color>
+
+    <color name="blue_kowsar">#123a64</color>
+    <color name="yellow_kowsar">#fdea95</color>
+
+    <color name="flow_drawer_background">#3B3B3B</color>
+
+    <color name="black">#000000</color>
+
+    <color name="drawer_dark">#2f3f56</color>
+    <color name="drawer_light">#3e526d</color>
+
+    <color name="history_label_not_sent">#f8aa75</color>
+    <color name="history_label_waiting">#63b2fb</color>
+    <color name="history_label_issued">#01c6d1</color>
+    <color name="history_label_insufficient_document">#faa877</color>
+    <color name="history_label_expired">#90939a</color>
+    <color name="history_label_reject">#d96787</color>
+
+    <array name="history_progress_color">
+        <item>@color/history_label_not_sent</item>
+        <item>@color/history_label_waiting</item>
+        <item>@color/history_label_issued</item>
+        <item>@color/history_label_insufficient_document</item>
+        <item>@color/history_label_expired</item>
+        <item>@color/history_label_reject</item>
+    </array>
+
+    <color name="support_green">#3ab3da</color>
+    <color name="support_blue">#8e9aec</color>
+    <color name="support_purple">#ba8cf4</color>
+
+    <color name="support_label_waiting">#19ced8</color>
+    <color name="support_label_not_seen">#62b2fb</color>
+    <color name="support_label_seen">#62b2fb</color>
+    <color name="support_closed">#858585</color>
+
+    <array name="support_label_color">
+        <item>@color/support_label_waiting</item>
+        <item>@color/support_label_not_seen</item>
+        <item>@color/support_label_seen</item>
+        <item>@color/support_closed</item>
+    </array>
+
+    <color name="chat_header_green_dark">#07c7d2</color>
+    <color name="chat_header_green_light">#7de9e5</color>
+
+    <color name="onboarding_00">#fff7d4</color>
+    <color name="onboarding_01">#bbe6dd</color>
+    <color name="onboarding_02">#f0d3ed</color>
+    <color name="onboarding_03">#ffeee6</color>
+
+    <color name="offer_label">#FF01C5D1</color>
+
+</resources>

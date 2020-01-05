@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+            <ImageView
+                    android:id="@+id/onboarding_3_obj_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="-120dp"
+                    android:layout_marginBottom="10dp"
+                    android:adjustViewBounds="true" />
+
+            <ImageView
+                    android:id="@+id/onboarding_3_obj_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true" />
+
+            <ImageView
+                    android:id="@+id/onboarding_3_obj_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="-85dp"
+                    android:adjustViewBounds="true" />
+
+            <TextView
+                    android:id="@+id/onboarding_3_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="100dp"
+                    android:text="@string/onboarding_text_08"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="@dimen/onboarding_title" />
+
+
+            <TextView
+                    android:id="@+id/onboarding_3_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginBottom="150dp"
+                    android:gravity="center"
+                    android:text="@string/onboarding_text_09"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="@dimen/onboarding_text" />
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

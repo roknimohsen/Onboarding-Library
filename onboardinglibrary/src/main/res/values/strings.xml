@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OnboardingLibrary</string>
+    <string name="onboarding_text_01">Next</string>
+    <string name="onboarding_text_02">TITLE 1</string>
+    <string name="onboarding_text_03">this is text 1</string>
+    <string name="onboarding_text_04">TITLE 2</string>
+    <string name="onboarding_text_05">this is text 2</string>
+    <string name="onboarding_text_06">TITLE 3</string>
+    <string name="onboarding_text_07">this is text 3</string>
+    <string name="onboarding_text_08">TITLE 4</string>
+    <string name="onboarding_text_09">this is text 4</string>
+</resources>

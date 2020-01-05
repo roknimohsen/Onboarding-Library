@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="onboarding_title">30sp</dimen>
+    <dimen name="onboarding_text">15sp</dimen>
+
+</resources>

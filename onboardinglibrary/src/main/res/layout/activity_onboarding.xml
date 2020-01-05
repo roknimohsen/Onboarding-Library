@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <com.mohsenrokni.onboardinglibrary.util.CustomViewPager
+            android:id="@+id/onboarding_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal">
+
+
+        <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabDots"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:tabBackground="@drawable/onboarding_tab_selector"
+                app:tabGravity="center"
+                app:tabIndicatorHeight="0dp" />
+
+
+        <FrameLayout
+                android:id="@+id/next"
+                android:layout_width="115dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="horizontal">
+
+                <TextView
+                        android:id="@+id/onboarding_next_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/onboarding_text_01"
+                        android:textColor="@color/gray_dark"
+                        android:textSize="@dimen/onboarding_text" />
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="12dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:adjustViewBounds="true"
+                        android:foregroundGravity="center"
+                        android:padding="3dp"
+                        android:src="@drawable/ic_next" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+
+</FrameLayout>
